@@ -167,10 +167,6 @@ header .iov {
 	width: 320px;
 }
 
-/* .bottom-section div:last-child {
-	/* margin-right: 0; */
-} */
-
 .contact {
 	padding: 40px 0;
 }
@@ -190,8 +186,8 @@ footer h6 {
 	#wrapper {
 		width: 80%;
 		margin: 0 auto;
-
 	}
+
 	header nav {
 		height: 150px;
 		display: flex;
@@ -207,20 +203,18 @@ footer h6 {
 		padding: 20px;
 	}
 	
-	.top-section div {
+	.top-section div, .bottom-section div {
 		padding: 20px;
 	}
-	.bottom-section div {
-		padding: 20px;
-	}
+	
 }
 
 /*MEDIA CODE FOR MOBILE*/
 
 @Media (max-width: 500px) {
-		#wrapper {
-			width: 100%;
-			margin: 0;
+	#wrapper {
+		width: 100%;
+		margin: 0;
 	}
 	header nav {
 		justify-content: space-between;
