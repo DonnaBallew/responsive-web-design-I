@@ -190,7 +190,7 @@ footer h6 {
 
 	header nav {
 		height: 150px;
-		display: flex;
+		display: flex; /*this was a duplicate from above; not needed*/
 		flex-direction: column-reverse;
 		align-items: center;
 		align-content: space-end;

@@ -13,7 +13,7 @@ body {
 	}
 	header .navigation {
 		height: 150px;
-		display: flex;
+		display: flex; /*duplicate*/
 		flex-direction: column-reverse;
 		align-items: center;
 		align-content: space-end;
